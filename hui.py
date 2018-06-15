@@ -18,6 +18,7 @@ def hui(width=30, char='*', space=' '):
                 else:
                     s += space
                 continue
+                
             if j < width / chars_count:
                 if i == j or (i + j == width / chars_count - 1):
                     s += char
