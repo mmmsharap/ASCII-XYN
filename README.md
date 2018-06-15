@@ -3,18 +3,18 @@
 Simple and configurable util to get ascii ХУЙ-like pattern
 
 ## Usage:
+```python
+import string
+import random
 
-    import string
-    import random
-    
-    # also u need to import hui from wherever
-    
-    for i in range(5):
-        width = random.randint(10, 100)
-        char = random.choice(string.punctuation)
-    
-        print hui(width=width, char=char)
+# also u need to import hui from wherever
 
+for i in range(5):
+    width = random.randint(10, 100)
+    char = random.choice(string.punctuation)
+
+    print hui(width=width, char=char)
+```
 Output:
 
                                                  ,         
