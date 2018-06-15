@@ -19,22 +19,22 @@ def hui(width=30, char='*', space=' '):
                     s += space
                 continue
             if j < width / chars_count:
-                if i == j or (i + j == width / chars_count -1):
+                if i == j or (i + j == width / chars_count - 1):
                     s += char
                     continue
-                
-            if width / chars_count + 1 <= j < width / chars_count * 2  + 1:
-                if i + width / chars_count + 1 == j and i < (width / chars_count + 1) / 2  or (i + j == width / chars_count * 2):
+  
+            if width / chars_count + 1 <= j < width / chars_count * 2 + 1:
+                if i + width / chars_count + 1 == j and i < (width / chars_count + 1) / 2 or (i + j == width / chars_count * 2):
                     s += char
                     continue
-            
+
             if j >= 2 * width / chars_count + 1:
-                if j == 2 * (width / chars_count + 1) or j == width + 2  or (i + j == width + 1):
+                if j == 2 * (width / chars_count + 1) or j == width + 2 or (i + j == width + 1):
                     s = += char
                     continue
-      
+
             s += space
-            
+
         result += s + '\n'
 
     return result
