@@ -2,7 +2,7 @@
 # ASCII-ХУЙ
 Simple and configurable util to get ascii ХУЙ-like pattern
 
-# Usage:
+## Usage:
 
     import string
     import random
