@@ -121,4 +121,4 @@ Output:
     @       @ @         @        @
 
 ## Licence
-WTFPL, grab your copy here: http://sam.zoy.org/wtfpl/
+WTFPL, grab your copy here: http://www.wtfpl.net/
