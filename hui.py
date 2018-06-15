@@ -1,5 +1,8 @@
+HUI = u'ХУЙ'
+
+
 def hui(width=30, char='*', space=' '):
-    chars_count = len(u'ХУЙ')
+    chars_count = len(HUI)
     height = width / chars_count
     i_dot_height = height / 5
     i_dot_pos = int(chars_count - 1 + width * (2 / float(chars_count) + 1 / float(chars_count) / 2.0))
